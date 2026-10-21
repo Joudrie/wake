@@ -23,7 +23,7 @@ export function shell({ title, bodyClass = "", nav, main, aside = "" }) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(title)} &middot; The Wake Encyclopedia</title>
-<link rel="icon" href="${u("/styles/favicon.svg")}" type="image/svg+xml">
+<link rel="icon" href="${u("/styles/icon-512.png")}" type="image/png">
 <link rel="apple-touch-icon" href="${u("/styles/apple-touch-icon.png")}">
 <link rel="stylesheet" href="${u("/styles/fonts.css")}">
 <link rel="stylesheet" href="${u("/styles/tokens.css")}">
